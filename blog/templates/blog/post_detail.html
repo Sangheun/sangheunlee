@@ -1,6 +1,9 @@
 {% extends 'blog/index.html' %}
 {% block content %}
 
-{{post.title}}
-<img src="{% url post.image.url %}"/>
+<h1>{{post.title}}</h1>
+<img src="{{post.photo.url}}"/>
+<hr />
+{{post.content}}
+
 {% endblock %}
