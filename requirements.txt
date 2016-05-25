@@ -1,0 +1,4 @@
+django
+pillow
+django-debug-toolbar
+django-bootstrap
